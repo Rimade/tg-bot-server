@@ -42,13 +42,19 @@ module.exports = {
 		help: '❓ Help',
 		openWebApp: '🌐 Open Quiz in App',
 		showMap: '🗺 Show on Map',
-		saveLocation: '�� Save Location',
+		saveLocation: '💾 Save Location',
 		downloadPhoto: '💾 Download',
 		processPhoto: '🔄 Process',
+	},
+	stats: {
+		activeUsersHeader: 'Active users in web application: {count}',
+		noActiveUsers: 'Currently there are no active users in the web application',
+		duration: '{duration}',
 	},
 	errors: {
 		callback: '❌ An error occurred. Please try again.',
 		general: '❌ An error occurred. Please try again later.',
+		adminOnly: '❌ This command is available only to administrators.',
 	},
 	messages: {
 		useCommands: 'Please use commands or menu buttons to interact with the bot.',
@@ -62,5 +68,8 @@ module.exports = {
 		settings: 'Settings',
 		stats: 'Statistics',
 		faq: 'FAQ',
+	},
+	system: {
+		operationCancelled: '⚠️ The previous operation was cancelled due to a new command.',
 	},
 };
